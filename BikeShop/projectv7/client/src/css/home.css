@@ -1,0 +1,26 @@
+.home {
+ color:green;
+}
+.home, .bgpic {
+ 
+ width:100%;
+ margin:0;
+ height:auto;
+
+ /*border-radius: 0;*/
+
+}
+.slogan{
+ /* position: relative;*/
+  text-align: center;
+  color: white;
+}
+.slogansentence {
+  position: absolute;
+  font-size: 5rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; /*to not split in 2 lines*/
+  
+}
